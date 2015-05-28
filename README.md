@@ -35,6 +35,12 @@ Currently it features the following effects from the article:
 ### Madoka
 <img src="https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Madoka.gif" />
 
+### Simple Circle
+<img src="https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/SimpleCircle.gif" />
+
+### Advanced Circle
+<img src="https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/AdvancedCircle.gif" />
+
 ## Installation
 
 ### Manual
