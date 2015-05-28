@@ -34,7 +34,7 @@ import UIKit
         }
     }
     
-    private let borderThickness: (active: CGFloat, inactive: CGFloat) = (4, 2)
+    private let borderThickness: (active: CGFloat, inactive: CGFloat) = (15, 2)
     private let placeholderInsets = CGPoint(x: 6, y: 6)
     private let textFieldInsets = CGPoint(x: 6, y: 6)
     private let borderLayer = CALayer()
@@ -109,16 +109,16 @@ import UIKit
     
     override func animateViewsForTextEntry() {
         updateBorder()
-        if let activeColor = activeColor {
-            performPlacerholderAnimationWithColor(activeColor)
-        }
+//        if let activeColor = activeColor {
+//            performPlacerholderAnimationWithColor(activeColor)
+//        }
     }
     
     override func animateViewsForTextDisplay() {
         updateBorder()
-        if let inactiveColor = inactiveColor {
-            performPlacerholderAnimationWithColor(inactiveColor)
-        }
+//        if let inactiveColor = inactiveColor {
+//            performPlacerholderAnimationWithColor(inactiveColor)
+//        }
     }
     
     private func performPlacerholderAnimationWithColor(color: UIColor) {

@@ -76,7 +76,7 @@ import UIKit
     private func percentageForBottomBorder() -> CGFloat {
         let borderRect = rectForBorder(bounds)
         let sumOfSides = (borderRect.width * 2) + (borderRect.height * 2)
-        return (borderRect.width * 100 / sumOfSides) / 100
+        return borderRect.width / sumOfSides
     }
     
     private func updatePlaceholder() {
@@ -137,7 +137,8 @@ import UIKit
     
     override func animateViewsForTextDisplay() {
         if text.isEmpty {
-            borderLayer.strokeEnd = percentageForBottomBorder()
+            let percentage = percentageForBottomBorder()
+            borderLayer.strokeEnd = percentage
             
             UIView.animateWithDuration(0.3, animations: { () -> Void in
                 self.placeholderLabel.transform = CGAffineTransformIdentity

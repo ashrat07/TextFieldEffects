@@ -77,11 +77,11 @@ import UIKit
     
     override func animateViewsForTextEntry() {
         UIView.animateWithDuration(0.35, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 2.0, options: UIViewAnimationOptions.BeginFromCurrentState, animations: ({
-            self.placeholderLabel.frame.origin = CGPoint(x: self.frame.size.width * 0.65, y: self.placeholderInsets.y)
+            self.placeholderLabel.frame.origin = CGPoint(x: self.frame.size.width * 0.45, y: self.placeholderInsets.y)
         }), completion: nil)
         
         UIView.animateWithDuration(0.45, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 1.5, options: UIViewAnimationOptions.BeginFromCurrentState, animations: ({
-            self.foregroundView.frame.origin = CGPoint(x: self.frame.size.width * 0.6, y: 0)
+            self.foregroundView.frame.origin = CGPoint(x: self.frame.size.width * 0.4, y: 0)
         }), completion: nil)
     }
     
@@ -100,13 +100,13 @@ import UIKit
     // MARK: - Overrides
         
     override public func editingRectForBounds(bounds: CGRect) -> CGRect {
-        let frame = CGRect(origin: bounds.origin, size: CGSize(width: bounds.size.width * 0.6, height: bounds.size.height))
+        let frame = CGRect(origin: bounds.origin, size: CGSize(width: bounds.size.width * 0.4, height: bounds.size.height))
         
         return CGRectInset(frame, textFieldInsets.x, textFieldInsets.y)
     }
     
     override public func textRectForBounds(bounds: CGRect) -> CGRect {
-        let frame = CGRect(origin: bounds.origin, size: CGSize(width: bounds.size.width * 0.6, height: bounds.size.height))
+        let frame = CGRect(origin: bounds.origin, size: CGSize(width: bounds.size.width * 0.4, height: bounds.size.height))
         
         return CGRectInset(frame, textFieldInsets.x, textFieldInsets.y)
     }

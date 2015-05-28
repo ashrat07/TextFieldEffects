@@ -14,6 +14,7 @@ protocol TextFieldsEffectsProtocol {
     func updateViewsForBoundsChange(bounds: CGRect)
     func animateViewsForTextEntry()
     func animateViewsForTextDisplay()
+    func animateViewsForTextChange()
 }
 
 public class TextFieldEffects : UITextField, TextFieldsEffectsProtocol {
@@ -25,6 +26,10 @@ public class TextFieldEffects : UITextField, TextFieldsEffectsProtocol {
     }
     
     func animateViewsForTextDisplay() {
+        fatalError("\(__FUNCTION__) must be overridden")
+    }
+    
+    func animateViewsForTextChange() {
         fatalError("\(__FUNCTION__) must be overridden")
     }
     
@@ -71,6 +76,8 @@ public class TextFieldEffects : UITextField, TextFieldsEffectsProtocol {
             NSNotificationCenter.defaultCenter().addObserver(self, selector: "textFieldDidEndEditing", name:UITextFieldTextDidEndEditingNotification, object: self)
             
             NSNotificationCenter.defaultCenter().addObserver(self, selector: "textFieldDidBeginEditing", name:UITextFieldTextDidBeginEditingNotification, object: self)
+            
+            NSNotificationCenter.defaultCenter().addObserver(self, selector: "textFieldDidChange", name: UITextFieldTextDidChangeNotification, object: self)
         } else {
             NSNotificationCenter.defaultCenter().removeObserver(self)
         }
@@ -82,6 +89,10 @@ public class TextFieldEffects : UITextField, TextFieldsEffectsProtocol {
     
     public func textFieldDidEndEditing() {
         animateViewsForTextDisplay()
+    }
+    
+    public func textFieldDidChange() {
+        animateViewsForTextChange()
     }
     
 }

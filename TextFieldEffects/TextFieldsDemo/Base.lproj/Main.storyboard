@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6750" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kzy-mN-NiP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kzy-mN-NiP">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -457,6 +457,134 @@
                                                 <constraint firstItem="2vD-ee-FkV" firstAttribute="top" secondItem="5Kz-ea-8dS" secondAttribute="topMargin" constant="-8" id="4ba-jL-2kQ"/>
                                                 <constraint firstItem="2vD-ee-FkV" firstAttribute="leading" secondItem="5Kz-ea-8dS" secondAttribute="leadingMargin" id="79c-2x-NCC"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="2vD-ee-FkV" secondAttribute="trailing" id="Ve1-Ut-GiW"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Simple Circle" id="VOc-jU-cC6" userLabel="Simple Circle">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="XaK-By-sQO">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XaK-By-sQO" id="Oo8-Fc-b2F">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First name" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CHg-8W-gWw" customClass="SimpleCircleTextField" customModule="TextFieldEffects">
+                                                    <rect key="frame" x="8" y="0.0" width="584" height="100"/>
+                                                    <color key="tintColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                            <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" red="0.83529411760000005" green="0.31372549020000001" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="CHg-8W-gWw" secondAttribute="trailing" id="Kdz-rc-DqC"/>
+                                                <constraint firstItem="CHg-8W-gWw" firstAttribute="leading" secondItem="Oo8-Fc-b2F" secondAttribute="leadingMargin" id="a4o-5v-2tO"/>
+                                                <constraint firstItem="CHg-8W-gWw" firstAttribute="top" secondItem="Oo8-Fc-b2F" secondAttribute="topMargin" constant="-8" id="bsc-8x-ZwR"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="CHg-8W-gWw" secondAttribute="bottom" constant="-8" id="pQ8-AV-qzE"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="200" id="IhE-0i-wEY">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IhE-0i-wEY" id="CVM-6g-cN9">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last name" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m30-vK-kIZ" customClass="SimpleCircleTextField" customModule="TextFieldEffects">
+                                                    <rect key="frame" x="8" y="0.0" width="584" height="200"/>
+                                                    <color key="tintColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                            <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" red="0.83529411760000005" green="0.31372549020000001" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="m30-vK-kIZ" secondAttribute="bottom" constant="-8" id="LQL-1z-D9k"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="m30-vK-kIZ" secondAttribute="trailing" id="Y7R-ra-uzZ"/>
+                                                <constraint firstItem="m30-vK-kIZ" firstAttribute="leading" secondItem="CVM-6g-cN9" secondAttribute="leadingMargin" id="dop-bY-UqY"/>
+                                                <constraint firstItem="m30-vK-kIZ" firstAttribute="top" secondItem="CVM-6g-cN9" secondAttribute="topMargin" constant="-8" id="kb6-bb-t5M"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Advanced Circle" id="WBs-zb-gCP" userLabel="Advanced Circle">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="0.0" shouldIndentWhileEditing="NO" rowHeight="100" id="5oq-2D-h0O">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5oq-2D-h0O" id="uSW-dp-3Pc">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First name" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pBu-lW-zuY" customClass="AdvancedCircleTextField" customModule="TextFieldEffects">
+                                                    <rect key="frame" x="8" y="0.0" width="584" height="100"/>
+                                                    <color key="tintColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                            <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" red="0.83529411760000005" green="0.31372549020000001" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="pBu-lW-zuY" firstAttribute="leading" secondItem="uSW-dp-3Pc" secondAttribute="leadingMargin" id="Cxb-jC-l83"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="pBu-lW-zuY" secondAttribute="trailing" id="mpB-bP-x6s"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="pBu-lW-zuY" secondAttribute="bottom" constant="-8" id="nCc-bS-waI"/>
+                                                <constraint firstItem="pBu-lW-zuY" firstAttribute="top" secondItem="uSW-dp-3Pc" secondAttribute="topMargin" constant="-8" id="pcV-Gl-A9I"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="200" id="bl7-uv-Yg6">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bl7-uv-Yg6" id="E6r-qw-OPC">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last name" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NJX-U0-Yzg" customClass="AdvancedCircleTextField" customModule="TextFieldEffects">
+                                                    <rect key="frame" x="8" y="0.0" width="584" height="200"/>
+                                                    <color key="tintColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                            <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" red="0.83529411760000005" green="0.31372549020000001" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="NJX-U0-Yzg" firstAttribute="top" secondItem="E6r-qw-OPC" secondAttribute="topMargin" constant="-8" id="HuY-jT-SJb"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="NJX-U0-Yzg" secondAttribute="bottom" constant="-8" id="UnF-AB-qPv"/>
+                                                <constraint firstItem="NJX-U0-Yzg" firstAttribute="leading" secondItem="E6r-qw-OPC" secondAttribute="leadingMargin" id="mmU-7m-hSJ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="NJX-U0-Yzg" secondAttribute="trailing" id="tEI-tM-SZQ"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>

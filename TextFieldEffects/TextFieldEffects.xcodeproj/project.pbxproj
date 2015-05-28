@@ -22,6 +22,8 @@
 		4CBF76771A71AF7700073B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBF76751A71AF7700073B6A /* Main.storyboard */; };
 		4CBF76791A71AF7700073B6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBF76781A71AF7700073B6A /* Images.xcassets */; };
 		4CBF767C1A71AF7700073B6A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBF767A1A71AF7700073B6A /* LaunchScreen.xib */; };
+		750A7F3D1B06002D008BC0ED /* AdvancedCircleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750A7F3C1B06002D008BC0ED /* AdvancedCircleTextField.swift */; };
+		7565DFFF1B04B9070015835D /* SimpleCircleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7565DFFE1B04B9070015835D /* SimpleCircleTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		4CBF76761A71AF7700073B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CBF76781A71AF7700073B6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CBF767B1A71AF7700073B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		750A7F3C1B06002D008BC0ED /* AdvancedCircleTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedCircleTextField.swift; sourceTree = "<group>"; };
+		7565DFFE1B04B9070015835D /* SimpleCircleTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCircleTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				4CB3B6EE1AA8DEC3000AFA56 /* YokoTextField.swift */,
 				4CB3B6D21AA8DEA7000AFA56 /* TextFieldEffects.h */,
 				4CB3B6D01AA8DEA7000AFA56 /* Supporting Files */,
+				7565DFFE1B04B9070015835D /* SimpleCircleTextField.swift */,
+				750A7F3C1B06002D008BC0ED /* AdvancedCircleTextField.swift */,
 			);
 			path = TextFieldEffects;
 			sourceTree = "<group>";
@@ -269,7 +275,9 @@
 				4CB3B6F51AA8DEC3000AFA56 /* TextFieldsEffects.swift in Sources */,
 				4CB3B6F21AA8DEC3000AFA56 /* KaedeTextField.swift in Sources */,
 				4CB3B6F11AA8DEC3000AFA56 /* JiroTextField.swift in Sources */,
+				750A7F3D1B06002D008BC0ED /* AdvancedCircleTextField.swift in Sources */,
 				4CB3B6F41AA8DEC3000AFA56 /* MinoruTextField.swift in Sources */,
+				7565DFFF1B04B9070015835D /* SimpleCircleTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
