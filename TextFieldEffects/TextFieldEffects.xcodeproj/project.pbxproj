@@ -102,10 +102,10 @@
 				4CB3B6EC1AA8DEC3000AFA56 /* MinoruTextField.swift */,
 				4CB3B6ED1AA8DEC3000AFA56 /* TextFieldsEffects.swift */,
 				4CB3B6EE1AA8DEC3000AFA56 /* YokoTextField.swift */,
-				4CB3B6D21AA8DEA7000AFA56 /* TextFieldEffects.h */,
-				4CB3B6D01AA8DEA7000AFA56 /* Supporting Files */,
 				7565DFFE1B04B9070015835D /* SimpleCircleTextField.swift */,
 				750A7F3C1B06002D008BC0ED /* AdvancedCircleTextField.swift */,
+				4CB3B6D21AA8DEA7000AFA56 /* TextFieldEffects.h */,
+				4CB3B6D01AA8DEA7000AFA56 /* Supporting Files */,
 			);
 			path = TextFieldEffects;
 			sourceTree = "<group>";
