@@ -15,31 +15,31 @@ Currently it features the following effects from the article:
 ## How they look
 
 ### Kaede
-<img src="https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Kaede.gif" />
+<img src="https://raw.githubusercontent.com/ashrat07/TextFieldEffects/master/Screenshots/Kaede.gif" />
 
 ### Hoshi
-<img src="https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Hoshi.gif" />
+<img src="https://raw.githubusercontent.com/ashrat07/TextFieldEffects/master/Screenshots/Hoshi.gif" />
 
 ### Jiro
-<img src="https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Jiro.gif" />
+<img src="https://raw.githubusercontent.com/ashrat07/TextFieldEffects/master/Screenshots/Jiro.gif" />
 
 ### Isao
-<img src="https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Isao.gif" />
+<img src="https://raw.githubusercontent.com/ashrat07/TextFieldEffects/master/Screenshots/Isao.gif" />
 
 ### Minoru
-<img src="https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Minoru.gif" />
+<img src="https://raw.githubusercontent.com/ashrat07/TextFieldEffects/master/Screenshots/Minoru.gif" />
 
 ### Yoko
-<img src="https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Yoko.gif" />
+<img src="https://raw.githubusercontent.com/ashrat07/TextFieldEffects/master/Screenshots/Yoko.gif" />
 
 ### Madoka
-<img src="https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Madoka.gif" />
+<img src="https://raw.githubusercontent.com/ashrat07/TextFieldEffects/master/Screenshots/Madoka.gif" />
 
 ### Simple Circle
-<img src="https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/SimpleCircle.gif" />
+<img src="https://raw.githubusercontent.com/ashrat07/TextFieldEffects/master/Screenshots/SimpleCircle.gif" />
 
 ### Advanced Circle
-<img src="https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/AdvancedCircle.gif" />
+<img src="https://raw.githubusercontent.com/ashrat07/TextFieldEffects/master/Screenshots/AdvancedCircle.gif" />
 
 ## Installation
 
@@ -52,7 +52,7 @@ The easiest way to install this framework is to drag and drop the `TextFieldEffe
 Add the following to your Cartfile:
 
 ``` ruby
-github "raulriera/TextFieldEffects"
+github "ashrat07/TextFieldEffects"
 ```
 
 
